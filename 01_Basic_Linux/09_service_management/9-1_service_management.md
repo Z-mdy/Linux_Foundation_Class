@@ -20,7 +20,7 @@
 
 # Basic sytax 
 
-`sudo systemtl [options] [service_name]`
+`sudo systemctl [options] [service_name]`
 - eg `sudo systemctl status apache2`
 ```
 Options
