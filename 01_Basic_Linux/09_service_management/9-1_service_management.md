@@ -18,7 +18,7 @@
 
 - central management tool for controlling the system
 
-# Basic sytax 
+# Basic syntax 
 
 `sudo systemtl [options] [service_name]`
 - eg `sudo systemctl status apache2`
@@ -28,12 +28,12 @@ Options
 start		= starting services
 stop		= stop currently running services
 restart		= restart a running service
-reload		= reloading configuration withou restarting service
+reload		= reloading configuration without restarting service
 enable		= start a service at boot 
-disable		= diable service from starting atuomatically
+disable		= diable service from starting automatically
 status		= check the status of a service
-is-active 	= check to see a service is currently active
-is-eanble 	= check to see a service is currently enable
+is-active 	= check to see service is currently active
+is-enabled 	= Check to see service is currently enabled
 list-units	= show list of all units(services)
 ```
 
@@ -45,7 +45,7 @@ list-units	= show list of all units(services)
 
 - List all services whether active or not
 
-## list only service unit
+## List only service unit
 
 `systemctl list-units --type=service`
 
@@ -70,9 +70,9 @@ list-units	= show list of all units(services)
 
 # Using Shortcuts for Important Events
 
-#### Put system into rescur (single-user) mode
+#### Put system into rescue (single-user) mode
 
-`sudo systemctl resuce`
+`sudo systemctl rescue`
 
 #### Halt the system
 `sudo systemctl halt`
